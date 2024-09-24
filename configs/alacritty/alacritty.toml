@@ -1,0 +1,56 @@
+[window]
+decorations = "full"
+
+#[shell]
+#program = "pwsh.exe"
+
+[font]
+normal.family = "BerkeleyMono Nerd Font"
+size = 12.5
+offset.y = 0
+offset.x = 0
+
+[keyboard]
+bindings = [
+    { key = "F11", action = "ToggleFullscreen"},
+    { key = "N", mods = "Control | Shift", action = "CreateNewWindow"},
+]
+
+[colors]
+primary.background = "#000000"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
