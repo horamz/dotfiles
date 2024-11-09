@@ -15,16 +15,9 @@ vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 -- greatest remap ever
 vim.keymap.set("x", "<leader>p", [["_dP]])
 
--- ZZ is op
-vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
-vim.keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz")
-vim.keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz")
-vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
-
 -- -- next greatest remap ever : asbjornHaland
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
-
 vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
 
 -- This is going to get me cancelled
@@ -44,6 +37,7 @@ vim.keymap.set("n", "<leader>tr", "<cmd>vsplit | term<cr><C-W>L")
 vim.keymap.set("n", "<leader>ts", "<cmd>split | term<cr><C-W>J14<C-W>-")
 
 -- Buffers
-vim.keymap.set("n", "<C-Right>", "<cmd>bn<cr>");
-vim.keymap.set("n", "<C-Left>", "<cmd>bp<cr>");
 vim.keymap.set("n", "<leader>q", "<cmd>bd<cr>", {noremap = true, silent = true})
+
+vim.keymap.set("i", "jj", "<C-o>A;<esc>o", {noremap = true, silent = true})
+

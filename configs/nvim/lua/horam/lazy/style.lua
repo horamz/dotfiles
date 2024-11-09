@@ -25,31 +25,31 @@ return {
         config = function()
             require("better_escape").setup({
                 timeout = 200,
-                default_mappings = true,
+                default_mappings = false,
                 mappings = {
                     i = {
-                        k = {
-                            j = "<Esc>",
+                        j = {
+                            k = "<Esc>",
                         },
                     },
                     c = {
-                        k = {
-                            j = "<Esc>",
+                        j = {
+                            k = "<Esc>",
                         },
                     },
                     t = {
-                        k = {
-                            j = "<Esc>",
+                        j = {
+                            k = "<Esc>",
                         },
                     },
                     v = {
-                        k = {
-                            j = "<Esc>",
+                        j = {
+                            k = "<Esc>",
                         },
                     },
                     s = {
-                        k = {
-                            j = "<Esc>",
+                        j = {
+                            k = "<Esc>",
                         },
                     },
                 },

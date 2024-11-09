@@ -11,8 +11,8 @@ if vim.g.neovide then
 
     vim.o.guifont = "Berkeley Mono:h12"
 
-    vim.g.neovide_text_gamma = 0.8
-    vim.g.neovide_text_contrast = 0.1
+    vim.g.neovide_text_gamma = 1.8
+    vim.g.neovide_text_contrast = 0.4
 
     vim.g.neovide_font_hinting = 'none'
     vim.g.neovide_font_edging = 'subpixelantialias'
