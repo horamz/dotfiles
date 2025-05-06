@@ -38,6 +38,5 @@ vim.keymap.set("n", "<leader>ts", "<cmd>split | term<cr><C-W>J14<C-W>-")
 
 -- Buffers
 vim.keymap.set("n", "<leader>q", "<cmd>bd<cr>", {noremap = true, silent = true})
-
 vim.keymap.set("i", "jj", "<C-o>A;<esc>o", {noremap = true, silent = true})
 
